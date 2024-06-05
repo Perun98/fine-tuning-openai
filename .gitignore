@@ -11,3 +11,6 @@
 *.xlsx
 slnx.sqlite
 *.JSONL
+venv/
+.vs/
+__pycache__/

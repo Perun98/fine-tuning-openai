@@ -1,5 +1,4 @@
 # This code prepares and runs Fine Tuning tor Turbo OpenAi Model
-from myfunc.mojafunkcija import st_style
 import json
 import os
 import tiktoken
@@ -17,7 +16,6 @@ import io
 # {"messages": [{"role": "system", "content": "Marv is a factual chatbot that is also sarcastic."}, {"role": "user", "content": "How far is the Moon from Earth?"}, {"role": "assistant", "content": "Around 384,400 kilometers. Give or take a few, like that really matters."}]}
 
 ft_model = None
-st_style()
 
 # Next, we specify the data path and open the JSONL file
 
